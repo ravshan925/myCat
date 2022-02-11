@@ -1,0 +1,48 @@
+h1{
+    font-weight: 200;
+    text-transform: uppercase;
+    border-top: 3px solid;
+    font-size: 35px;
+    /* border-width: auto; */
+}
+body{
+    background-color: rgb(238, 124, 111);
+    color:#2E1263;
+    font-family: Raleway Light; /* "Sourse Code Pro" */
+    font-weight: 200;
+}
+img{
+    height: 300px;
+    border-radius: 50%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    margin: 30px auto 0px;
+    padding: 20px 25px;
+    background-color: rgb(238, 124, 111);
+    color: #2E1263;
+    font-size: 12px;
+    text-align: center;
+    border: 1.5px solid #2E1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+}
+
+button:hover{
+    transition: 0.3s;
+    color: rgb(238, 124, 111);
+    background-color: #2E1263;  
+    /* text-decoration: underline;   */
+}
+
+p{
+    font-size: 18px;
+}
